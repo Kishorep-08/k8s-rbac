@@ -6,6 +6,10 @@ data:
       - system:bootstrappers
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
+  mapUsers: |
+    - userarn: arn:aws:iam::368903465982:user/kishore
+      username: kishore
+
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-01-05T09:51:34Z"
