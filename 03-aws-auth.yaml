@@ -12,7 +12,7 @@ data:
       username: kishore
       groups:
         - devops
-    - userarn: arn:aws:iam::368903465982:user/kishore
+    - userarn: arn:aws:iam::368903465982:user/prasad
       username: prasad
         - devops
 
