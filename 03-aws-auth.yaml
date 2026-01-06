@@ -14,6 +14,7 @@ data:
         - devops
     - userarn: arn:aws:iam::368903465982:user/prasad
       username: prasad
+      groups:
         - devops
 
 kind: ConfigMap
