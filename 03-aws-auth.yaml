@@ -9,6 +9,11 @@ data:
   mapUsers: |
     - userarn: arn:aws:iam::368903465982:user/kishore
       username: kishore
+      groups:
+        - devops
+    - userarn: arn:aws:iam::368903465982:user/kishore
+      username: prasad
+        - devops
 
 kind: ConfigMap
 metadata:
